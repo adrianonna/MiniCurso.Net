@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreinamentoIFPB", "TreinamentoIFPB\TreinamentoIFPB.csproj", "{2931B446-5B1D-48FA-A3DE-A2140FE18B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryIFPB", "RepositoryIFPB\RepositoryIFPB.csproj", "{E837C894-FCB0-488C-B8D3-A72E0E4C2686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2931B446-5B1D-48FA-A3DE-A2140FE18B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2931B446-5B1D-48FA-A3DE-A2140FE18B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2931B446-5B1D-48FA-A3DE-A2140FE18B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2931B446-5B1D-48FA-A3DE-A2140FE18B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E837C894-FCB0-488C-B8D3-A72E0E4C2686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E837C894-FCB0-488C-B8D3-A72E0E4C2686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E837C894-FCB0-488C-B8D3-A72E0E4C2686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E837C894-FCB0-488C-B8D3-A72E0E4C2686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC08F4CE-50B4-4A1A-8713-7971C38791AA}
+	EndGlobalSection
+EndGlobal

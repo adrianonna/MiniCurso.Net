@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OXQu8DkfE/BUPtzX6ELRTVDm3lt+YJQlA0twm+pNISfJaN8taRx7rCW517gE2WNhE9Co0teVSDu69dEokXmcmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adria\\source\\repos\\TreinamentoIFPB\\RepositoryIFPB\\RepositoryIFPB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adria\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

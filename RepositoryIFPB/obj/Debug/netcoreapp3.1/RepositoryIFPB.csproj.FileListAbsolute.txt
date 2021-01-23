@@ -1,0 +1,9 @@
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\bin\Debug\netcoreapp3.1\RepositoryIFPB.deps.json
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\bin\Debug\netcoreapp3.1\RepositoryIFPB.dll
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\bin\Debug\netcoreapp3.1\RepositoryIFPB.pdb
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.csprojAssemblyReference.cache
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.AssemblyInfoInputs.cache
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.AssemblyInfo.cs
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.csproj.CoreCompileInputs.cache
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.dll
+C:\Users\adria\source\repos\TreinamentoIFPB\RepositoryIFPB\obj\Debug\netcoreapp3.1\RepositoryIFPB.pdb

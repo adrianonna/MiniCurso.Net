@@ -1,0 +1,53 @@
+<form [formGroup]="formulario">
+  <table class='table table-striped' aria-labelledby="tableLabel">
+    <tbody>
+    <tr>
+      <div>
+        <label for="date">
+          Date:
+        </label>
+        <tr><input id="name" type="date" formControlName="date"></tr>
+      </div>
+    </tr>
+
+    <tr>
+      <div>
+        <label for="temperatureC">
+          TemperatureC:
+        </label>
+        <tr><input id="address" type="text" formControlName="temperatureC"> </tr>
+      </div>
+    </tr>
+    
+    <tr>
+      <div>
+        <label for="temperatureF">
+          TemperatureF:
+        </label>
+        <tr><input id="address" type="text" formControlName="temperatureF"></tr>
+      </div>
+    </tr>
+
+    <tr>
+      <div>
+        <label for="summary">
+          Summary: 
+        </label>
+        <tr><input id="address" type="text" formControlName="summary"></tr>
+      </div>
+    </tr>
+      <br/>
+  <tr>
+    <p>
+      <button class="btn btn-primary" type="submit" (click)="saveData()">Save Data</button>
+    </p>
+  </tr>
+
+   </tbody>
+
+  </table>
+
+</form>
+  
+
+
