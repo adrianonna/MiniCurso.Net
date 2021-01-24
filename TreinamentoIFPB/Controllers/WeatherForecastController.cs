@@ -23,7 +23,7 @@ namespace TreinamentoIFPB.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        private ServiceIFPB serviceIFPB = new RepositoryIFPB();
+        private ServiceIFPB serviceIFPB;
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
