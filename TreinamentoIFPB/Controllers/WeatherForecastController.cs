@@ -2,6 +2,8 @@
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using RepositoryIFPB.Model;
+using RepositoryIFPB.Service;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,12 +16,14 @@ namespace TreinamentoIFPB.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+/*        private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        };*/
 
         private readonly ILogger<WeatherForecastController> _logger;
+
+        private ServiceIFPB serviceIFPB = new RepositoryIFPB();
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
@@ -29,10 +33,12 @@ namespace TreinamentoIFPB.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
-            string json = System.IO.File.ReadAllText(@"C:\Users\adria\Documents\Curso.NET\IFPB.txt");
-            var list = JsonConvert.DeserializeObject<List<WeatherForecast>>(json);
+            /*           string json = System.IO.File.ReadAllText(@"C:\Users\adria\Documents\Curso.NET\IFPB.txt");
+                       var list = JsonConvert.DeserializeObject<List<WeatherForecast>>(json);
 
-            return list.ToArray();
+                       return list.ToArray();*/
+
+            return (IEnumerable<WeatherForecast>)serviceIFPB.Get();
 
             /*            var rng = new Random();
                         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
